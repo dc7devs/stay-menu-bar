@@ -4,12 +4,10 @@
 
 ```bash
 
-$ git clone https://github.com/dc7devs/stry-menu-bar
+$ git clone https://github.com/dc7devs/stray-menu-bar
 
 $ cd stry-menu-bar
 
-$ npm install
-
-$ npm start
+// Open index.html file
 
 ```
