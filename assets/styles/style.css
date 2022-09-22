@@ -19,6 +19,7 @@ body {
 header.top-bar {
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 nav.top-menubar  {
@@ -174,6 +175,7 @@ main.content iframe {
     height: 80vh;
 
     margin-bottom: 5px;
+    border-radius: 20px;
 }
 
 main.content .images {
@@ -182,11 +184,19 @@ main.content .images {
 
     flex-wrap: wrap;
 }
+
 main.content .images img {
     position: relative;
     width: calc(50% - 10px);
     margin: 5px;
-    z-index: -999;
+
+    border-radius: 10px;
+    transition: transform .4s;
+}
+main.content .images img:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+    transition: transform .4s;
 }
 
 main.content input {
