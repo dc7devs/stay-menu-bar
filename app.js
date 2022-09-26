@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const port = 5000;
 
 app.use(express.static('assets'));
 
@@ -18,6 +17,7 @@ app.get('/contato', (req, res) => {
     res.render("./index", { component: 'contact-content' });
 });
 
+const port = 3333;
 app.listen(port, () => {
     console.log(`Servidor ativo na  http://localhost:${port}`);
 });
