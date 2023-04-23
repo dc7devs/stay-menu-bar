@@ -2,7 +2,7 @@
   "name": "menu-bar",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node": "16.x"
   },
@@ -10,7 +10,7 @@
     "start": "node ./app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Diego C. Silva",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.8",

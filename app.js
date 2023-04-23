@@ -17,7 +17,7 @@ app.get('/contato', (req, res) => {
     res.render("./index", { component: 'contact-content' });
 });
 
-const port = 3333;
+const port = process.env.PORT || 3333;
 app.listen(port, () => {
     console.log(`Servidor ativo na  http://localhost:${port}`);
 });
